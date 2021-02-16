@@ -8,5 +8,14 @@ function avisame (){
 }; 
 
 
+const subrayar = document.getElementById('colorear');
+subrayar.addEventListener('onmouseover', naranja);
+
+function naranja(){
+    colorear.style.background ='orange'
+}; 
+
+
+
 
 
